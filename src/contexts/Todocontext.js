@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {createContext,useContext} from 'react'
 
 export const TodoContext = createContext({
@@ -10,7 +11,7 @@ export const TodoContext = createContext({
         completed : false,
     }
  ],
- //functionality  -> we will only write name not what it will do 
+
 
  addTodo: (todo) => {},
  updatedTodo: (id,todo) => {},
